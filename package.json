@@ -1,0 +1,39 @@
+{
+  "name": "nanogl-texture-loader",
+  "version": "0.1.1",
+  "description": "TExture loading utilities for nanogl",
+  "main": "texture-loader.js",
+  "scripts": {
+    "test": "jshint *.js && karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plepers/nanogl-texture-loader.git"
+  },
+  "keywords": [
+    "webgl nanogl"
+  ],
+  "author": "Pierre Lepers",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/plepers/nanogl-texture-loader/issues"
+  },
+  "homepage": "https://github.com/plepers/nanogl-texture-loader#readme",
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "jshint": "^2.9.1-rc1",
+    "karma": "^0.13.15",
+    "karma-browserify": "^4.4.2",
+    "karma-chrome-launcher": "^0.2.2",
+    "karma-firefox-launcher": "^0.1.7",
+    "karma-mocha": "^0.2.1",
+    "karma-safari-launcher": "^0.1.1",
+    "karma-sauce-launcher": "^0.3.0",
+    "mocha": "^2.3.4",
+    "nanogl": "^0.1.5",
+    "stringify": "^3.2.0"
+  },
+  "dependencies": {
+    "when": "^3.7.7"
+  }
+}
