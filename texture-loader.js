@@ -40,7 +40,7 @@ TextureLoader.load = function( texture, url ){
     defer.reject( texture );
     releaseLoader( texture );
   };
-  img.crossorigin = 'anonymous';
+  img.crossOrigin = 'anonymous';
   img.src = url;
 
   _loaders[texture._uid] = {
