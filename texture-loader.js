@@ -54,6 +54,10 @@ TextureLoader.load = function( texture, url ){
 
 };
 
+TextureLoader.release = function( texture ){
+  releaseLoader( texture );
+};
+
 
 function releaseLoader( texture ){
   var l = _loaders[texture._uid];
