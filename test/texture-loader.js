@@ -63,6 +63,22 @@ describe( "TextureLoader", function(){
 
   });
 
+    it( "should reject released", function( done ){
+    var tex = new Texture( gl );
+
+    TextureLoader.load( tex, 'assets/mireRGB.png' ).then(
+      function( tex ){
+        expect().fail()
+      },
+      function( tex ){
+        expect( tex ).to.be.ok();
+        done();
+      })
+
+    TextureLoader.release( tex );
+
+  });
+
   it( "should cancel previous loader", function( done ){
     var tex = new Texture( gl );
 
