@@ -2,5 +2,5 @@
 
 
 # nanogl-texture-loader
-Promise based textuer loadinng utilities for nanogl
+Promise based texture loading utilities for nanogl
 
